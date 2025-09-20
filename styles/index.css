@@ -102,3 +102,12 @@ a {
     text-decoration: none;
     color: #5C4CFA;
 }
+
+/* Telas com largura de 768px ou menos. */
+@media (max-width: 768px) {
+    body {
+        /*remove a imagem de fundo em dispositivos de tela menor, como celulares*/
+        background-image: none;
+        background-color: #9EBAC5;
+    }
+}
